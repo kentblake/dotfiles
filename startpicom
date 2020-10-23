@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+# Basic blur for terms
+picom --experimental-backends --backend=glx --blur-background --blur-method=dual_kawase --blur-strength=7 -b
